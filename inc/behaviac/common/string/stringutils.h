@@ -14,6 +14,10 @@
 #ifndef _BEHAVIAC_COMMON_STRINGUTILS_H_
 #define _BEHAVIAC_COMMON_STRINGUTILS_H_
 
+#if __GNUC__
+#pragma GCC system_header
+#endif
+
 #include "behaviac/common/base.h"
 #include "behaviac/common/container/string.h"
 #include "behaviac/common/container/vector.h"
